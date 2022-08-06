@@ -1,11 +1,9 @@
-import Komponen from './Materi/Komponen';
+import Komponen from './Tugas/Komponen';
 
 function App() {
   return (
     <div className="App">
-      <Komponen>
-        Ini Percobaan APLIKASI PERTAMA
-      </Komponen>
+      <Komponen />
     </div>
   );
 }
