@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <Komponen>
-        Ini Percobaan
+        Ini Percobaan APLIKASI PERTAMA
       </Komponen>
     </div>
   );
