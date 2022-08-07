@@ -1,4 +1,4 @@
-import Komponen from './Tugas/Komponen';
+import Komponen from './Materi/Komponen';
 
 function App() {
   return (
