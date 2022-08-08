@@ -1,9 +1,16 @@
-import Styling from './Materi/Styling';
+// import Styling from './Materi/Styling';
+// import Reusable from './Materi/Reusable';
+// import RenderVariabel from "./Materi/RenderingVariable";
+import Form from "./Materi/Form";
+
 
 function App() {
   return (
     <div className="App">
-      <Styling />
+      {/* <Styling /> */}
+      {/* <Reusable /> */}
+      {/* <RenderVariabel /> */}
+      <Form />
     </div>
   );
 }
