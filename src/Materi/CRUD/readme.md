@@ -26,17 +26,17 @@
 
 ### 2. Slicing :
 
-  1.  Membuat Form untuk input todo _(Form.jsx)_
-  2.  Membuat Form untuk update todo  _(Form.jsx)_
-  3.  Membuat Card untuk menampilkan data yang diinput pakai React Bootstrap _(MapLists.jsx)_
-  4.  Buat Tombol Update dan Delete di Card _(MapLists.jsx)_
+  1.  Membuat Form untuk input todo **(Form.jsx)**
+  2.  Membuat Form untuk update todo  **(Form.jsx)**
+  3.  Membuat Card untuk menampilkan data yang diinput pakai React Bootstrap **(MapLists.jsx)**
+  4.  Buat Tombol Update dan Delete di Card **(MapLists.jsx)**
 
 
 
 ### 3. Membuat Insert Todo
 
-  1.  Membuat Function HandleForm() untuk preventDefault() lalu tempel di form _(Form.jsx)_
-  2.  Membuat *Function* HandleChange() untuk menghandle inputan dari user menggunakan OnChange() dan useState _(Form.jsx)_
-  3.
-  4.
-  5.
+  1.  Membuat Function *HandleForm()* untuk *preventDefault()* lalu tempel di form **(Form.jsx)**
+  2.  Membuat Function *HandleChange()* untuk menghandle inputan dari user menggunakan *OnChange()* dan *useState()* **(Form.jsx)**
+  3.  Mmebuat Function *addList()* kemudian kirim data ke Komponen **Form.jsx** menggunakan *onSubmit()* **(Lists.jsx)**
+  4.  Membuat Logic Iteration di Function *addList()* lalu kirim data menggunakan *useState()* **(Lists.jsx)**
+  5.  Membuat Olahan data untuk id **_Math.floor(Math.random()*1000)_**
