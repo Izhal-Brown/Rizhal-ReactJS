@@ -37,6 +37,36 @@
 
   1.  Membuat Function *HandleForm()* untuk *preventDefault()* lalu tempel di form **(Form.jsx)**
   2.  Membuat Function *HandleChange()* untuk menghandle inputan dari user menggunakan *OnChange()* dan *useState()* **(Form.jsx)**
-  3.  Mmebuat Function *addList()* kemudian kirim data ke Komponen **Form.jsx** menggunakan *onSubmit()* **(Lists.jsx)**
+  3.  Membuat Function *addList()* kemudian kirim data ke Komponen **Form.jsx** menggunakan *onSubmit()* **(Lists.jsx)**
   4.  Membuat Logic Iteration di Function *addList()* lalu kirim data menggunakan *useState()* **(Lists.jsx)**
-  5.  Membuat Olahan data untuk id **_Math.floor(Math.random()*1000)_**
+  5.  Membuat Olahan data untuk id **_Math.floor(Math.random()*1000)_** dan input yang diinput oleh user di dalam function *handleForm()* lalu kirim menggunakan props ke komponen **Lists.jsx** **(Form.jsx)**
+
+
+
+### 4. Membuat Delete Todo
+  1.  Membuat Function *deleteLists()* lalu membuat logic **(Lists.jsx)**
+  2.  Kirim fungsi *deleteLists()* ke *MapLists.jsx* menggunakan props **(Lists.jsx)**
+  3.  Terima props *deleteLists* di dalam parameter komponen **(MapList.jsx)**
+  4.  Pasang *deleteLists* di tombol delete menggunakan *onClick={}* **(MapLists.jsx)**
+
+
+
+### 5. Membuat Update Todo
+  1.  Membuat *onClick* untuk mengirim data yang di input oleh user **(MapList.jsx)**
+  2.  Tampung data yang diinput user di *usState()* **(MapList.jsx)**
+  3.  Membuat Function submitUpdate untuk menerima data yang dikirim dari form input **(MapList.jsx)**
+  4.  Buat Conditional antara form edit dan add **(MapList.jsx)**
+  5.  Buat Conditional antara form edit dan add dalam *useState()* **(Form.jsx)**
+  6.  Buat Conditional antara form edit dan add di dalam HTML Form **(Form.jsx)**
+  7.  Kirim data hasil submit update di dalam function *submitUpdate()* menggunakan props **(MapList.jsx)**
+  8.  Buat Function *updateList()* lalu olah data yang dikirim dari *submitUpdate()* atau value baru **(List.jsx)**
+  9.  Buat Logic di dalam function *updateList()* **(List.jsx)**
+
+
+  ```javascript
+  Logic updateLists = (listId, newValue) => {
+    setList ((prev) =>
+      prev.map((item) => (item.id === listId ? newValue : item))
+    )
+  }
+  ```
